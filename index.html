@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fundación Tías del Desayuno</title>
+  <meta name="description" content="Somos 14 voluntarias que acompañamos a niños y niñas con cáncer y a sus familias en el Hospital Sótero del Río desde 2007.">
+  <meta property="og:title" content="Fundación Tías del Desayuno">
+  <meta property="og:description" content="Acompañamos a niños y niñas con cáncer y a sus familias con cariño, contención y momentos de alegría.">
+  <meta property="og:image" content="img/hero1.jpg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container topbar__in">
+    <span>✉ fundaciontiasdeldesayuno@gmail.com</span>
+    <div class="topbar__links"><a href="#donar" class="pill-outline">DONAR</a><a href="#ayudar">Formas de ayudar</a></div>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="container nav__in">
+    <a href="#inicio" class="brand"><span class="brand__logo">♥</span> Fundación Tías Del Desayuno</a>
+    <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav__menu" id="menu">
+      <a href="#inicio" class="active">Inicio</a>
+      <div class="dropdown">
+        <a href="#nosotros" class="dropdown__btn">Nosotros ▾</a>
+        <div class="dropdown__menu">
+          <a href="#nosotros">Quiénes somos</a>
+          <a href="#explora">Propósito, misión y visión</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#voluntariado">Voluntariado</a>
+          <a href="#ubicacion">Ubicación</a>
+        </div>
+      </div>
+      <a href="#actividades">Actividades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#suenos">Sueños</a>
+      <a href="#donar" class="btn btn--primary nav__cta">Donar ahora</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+
+  <section class="hero" aria-label="Destacados">
+    <div class="hero__slides">
+      <article class="hero__slide is-active" style="--bg:url('img/hero1.jpg')">
+        <div class="container hero__content">
+          <span class="tag">Fundación 100% voluntaria</span>
+          <h1>Cada aporte es una nueva oportunidad de vida</h1>
+          <p>Actualmente, somos 14 voluntarias comprometidas con acompañar a niños y niñas con cáncer, entregándoles cariño, contención y momentos de alegría.</p>
+          <div class="hero__btns"><a href="#donar" class="btn btn--primary">Dona ahora →</a><a href="#nosotros" class="btn btn--ghost">Conoce más</a></div>
+        </div>
+      </article>
+      <article class="hero__slide" style="--bg:url('img/hero2.jpg')">
+        <div class="container hero__content">
+          <span class="tag">Desde 2007</span>
+          <h1>Manos que crean, corazones que entregan</h1>
+          <p>Actualmente, somos 14 voluntarias comprometidas con acompañar a niños y niñas con cáncer, entregándoles cariño, contención y momentos de alegría.</p>
+          <div class="hero__btns"><a href="#servicios" class="btn btn--primary">Nuestros servicios →</a><a href="#nosotros" class="btn btn--ghost">Conoce más</a></div>
+        </div>
+      </article>
+      <article class="hero__slide" style="--bg:url('img/hero3.jpg')">
+        <div class="container hero__content">
+          <span class="tag">Una comunidad que acompaña</span>
+          <h1>Más que una fundación, somos una comunidad</h1>
+          <p>Actualmente, somos 14 voluntarias comprometidas con acompañar a niños y niñas con cáncer, entregándoles cariño, contención y momentos de alegría.</p>
+          <div class="hero__btns"><a href="#ayudar" class="btn btn--primary">Cómo ayudar →</a><a href="#nosotros" class="btn btn--ghost">Conoce más</a></div>
+        </div>
+      </article>
+    </div>
+    <div class="hero__ctrl">
+      <button class="hero__arrow" data-dir="-1" aria-label="Anterior">‹</button>
+      <div class="hero__dots"></div>
+      <button class="hero__arrow" data-dir="1" aria-label="Siguiente">›</button>
+    </div>
+    <svg class="hero__curve" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0,0 C360,90 1080,90 1440,0 L1440,80 L0,80 Z" fill="#fff"/></svg>
+  </section>
+
+  <section class="section" id="nosotros">
+    <div class="container about">
+      <div class="about__img"><img src="img/nosotras.jpg" alt="Voluntarias de la Fundación Tías del Desayuno" loading="lazy"></div>
+      <div>
+        <p class="eyebrow">Sobre nosotras</p>
+        <h2 class="title">Más que una fundación, somos una <span class="accent">comunidad</span></h2>
+        <p class="muted"><strong>Somos una fundación 100% voluntaria.</strong></p>
+        <p>“Las Tías del Desayuno” nació el 2007 a partir de una visita al hospital, donde seis apoderados conocimos de cerca las necesidades de los niños y sus familias. Comenzamos llevando desayunos y colaciones a los pasillos, buscando entregar no solo alimentos, sino también compañía y momentos de alegría.</p>
+        <p>Con el tiempo, nuestro pequeño gesto fue creciendo y comenzamos a organizar actividades, paseos y celebraciones como el Día del Niño y Navidad, siempre con el mismo propósito: <em>“que los niños puedan jugar, sonreír y sentirse niños, incluso durante momentos difíciles”.</em></p>
+        <a href="#donar" class="btn btn--primary">♡ Apóyanos hoy</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--soft" id="explora">
+    <div class="container">
+      <p class="eyebrow center">Conócenos</p>
+      <h2 class="title center">Propósito, misión y visión</h2>
+      <div class="grid3 mv">
+        <article class="card service"><span>🎯</span><h3>Propósito</h3><p>Acompañar a niños hospitalizados y sus familias para que puedan seguir siendo niños: jugar, reír y disfrutar incluso en medio de la enfermedad y sus tratamientos.</p></article>
+        <article class="card service"><span>💜</span><h3>Misión</h3><p>Somos una fundación dedicada a acompañar, apoyar y brindar momentos de alegría y entretención a niños y niñas con cáncer, así como a sus familias, durante el proceso de su enfermedad. A través de la contención, el amor, la esperanza y diversas actividades solidarias y recreativas, buscamos contribuir a su bienestar integral, procurando que la enfermedad no defina su infancia y que siempre exista espacio para jugar, sonreír y disfrutar de ser niños.</p></article>
+        <article class="card service"><span>🌟</span><h3>Visión</h3><p>Ser una fundación referente en el acompañamiento humano de niños y niñas con cáncer y sus familias, contribuyendo a transformar los espacios hospitalarios en lugares más cálidos y acogedores, donde la alegría, el cariño y la esperanza estén presentes, y donde cada niño pueda seguir viviendo su infancia más allá de su enfermedad.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="servicios">
+    <div class="container">
+      <p class="eyebrow center">Qué hacemos</p>
+      <h2 class="title center">Nuestros servicios</h2>
+      <div class="grid3">
+        <article class="card service"><span>🥐</span><h3>Desayunos solidarios</h3><p>Entregamos desayunos a niños y sus familias, siendo esta la base y el origen de nuestro voluntariado.</p></article>
+        <article class="card service"><span>🕊️</span><h3>Acompañamiento en etapa terminal</h3><p>Brindamos compañía, apoyo y contención a niños y sus familias durante procesos de etapa terminal.</p></article>
+        <article class="card service"><span>🏠</span><h3>Visitas domiciliarias</h3><p>Acompañamos a niños y familias que requieren apoyo fuera del hospital.</p></article>
+        <article class="card service"><span>🌿</span><h3>Terapias complementarias</h3><p>Ofrecemos Reiki, regeneración celular y acupuntura como terapias complementarias.</p></article>
+        <article class="card service"><span>💆‍♀️</span><h3>Masoterapia para madres y acompañantes</h3><p>Entregamos espacios de relajación y bienestar para madres y acompañantes durante su permanencia en el hospital.</p></article>
+        <article class="card service"><span>🛏️</span><h3>Hospitalizaciones prolongadas</h3><p>Acompañamos a niños que permanecen largos períodos hospitalizados, especialmente aquellos en situaciones de vulnerabilidad social, económica o familiar.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section activities" id="actividades">
+    <div class="container">
+      <p class="eyebrow center light">Actividades o eventos anuales</p>
+      <h2 class="title center light">Actividades y Celebraciones</h2>
+      <p class="subtitle center light">El calendario de fechas especiales y los espacios de contención emocional, así llevamos alegría y apoyo a niños y familias.</p>
+      <div class="panel">
+        <div class="tabs" role="tablist">
+          <button class="tab is-active" data-filter="all">Todas</button>
+          <button class="tab" data-filter="cel">Celebraciones</button>
+          <button class="tab" data-filter="rec">Recreativas</button>
+          <button class="tab" data-filter="apo">Apoyo emocional</button>
+        </div>
+        <div class="acts" id="acts"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="proyectos">
+    <div class="container">
+      <div class="projects__head">
+        <div>
+          <p class="eyebrow">Trabajos colaborativos</p>
+          <h2 class="title big">Proyectos que transforman sonrisas</h2>
+          <p class="subtitle">Conoce algunas de las iniciativas que mejoran la experiencia de los niños y sus familias.</p>
+        </div>
+        <div class="projects__art" aria-hidden="true">🦒 🐘 🎨</div>
+      </div>
+      <div class="grid3" id="projects"></div>
+      <div class="note"><span class="note__ico">♥</span> Estas iniciativas buscan hacer del hospital un lugar más cálido, acogedor y amigable para los niños.</div>
+
+      <h3 class="subhead">Proyectos</h3>
+      <div class="grid2" id="next"></div>
+    </div>
+  </section>
+
+  <section class="section section--soft" id="suenos">
+    <div class="container">
+      <p class="eyebrow center">Sueños cumplidos</p>
+      <h2 class="title center">Sueños</h2>
+      <p class="lead center">A continuación, les compartimos algunos de los sueños que hemos tenido la alegría de cumplir. Sueños que, aunque a muchos les parezcan pequeños, para estos niños significan momentos de alegría, ilusión y recuerdos que quedarán para siempre.</p>
+      <div class="grid3" id="dreams"></div>
+    </div>
+  </section>
+
+  <section class="section" id="voluntariado">
+    <div class="container split">
+      <div>
+        <p class="eyebrow">Voluntariado</p>
+        <h2 class="title">Voluntarios que fueron parte de nuestra historia</h2>
+        <p>Contamos también con un grupo muy especial de voluntarios que hoy forman parte de nuestro staff. Son jóvenes que en el pasado fueron pacientes oncológicos y que, tras finalizar sus tratamientos y recibir el alta, decidieron regresar para seguir siendo parte de nuestra comunidad, pero esta vez desde otro lugar: ayudando y acompañando a otros niños y familias.</p>
+        <p>Muchos de ellos alguna vez participaron de nuestras fiestas de Navidad y recibieron de nosotros momentos de alegría y cariño. Hoy son ellos quienes trabajan y colaboran para hacer posible estas celebraciones, entregando a otros niños la misma alegría que alguna vez recibieron.</p>
+      </div>
+      <blockquote class="quote">Para nosotros es especialmente significativo ver cómo quienes un día estuvieron del otro lado, hoy vuelven para ayudar a construir estos momentos y mantener vivo el espíritu de solidaridad y acompañamiento que nos ayuda a crecer como comunidad.</blockquote>
+    </div>
+  </section>
+
+  <section class="section section--soft" id="ubicacion">
+    <div class="container">
+      <p class="eyebrow center">Ubicación</p>
+      <h2 class="title center">Donde el acompañamiento cobra vida</h2>
+      <p class="lead center">Operamos históricamente brindando asistencia en el Hospital Sótero del Río, realizando diversas actividades para los niños y familias.</p>
+      <div class="grid3 info">
+        <div class="card service"><span>📍</span><h3>Dirección</h3><p>Av. Concha y Toro N° 3459, Hospital Sótero del Río.</p></div>
+        <div class="card service"><span>📅</span><h3>Días de atención</h3><p>Lunes, miércoles y viernes.</p></div>
+        <div class="card service"><span>🕘</span><h3>Horario de actividades</h3><p>9:00 am – 12:30 pm.</p></div>
+      </div>
+      <div class="map"><iframe title="Mapa Hospital Sótero del Río" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Av.+Concha+y+Toro+3459,+Puente+Alto,+Chile&output=embed"></iframe></div>
+    </div>
+  </section>
+
+  <section class="section cta" id="donar">
+    <div class="container">
+      <p class="eyebrow center light">Donar ahora</p>
+      <h2 class="title center light">Ayúdanos a que los niños con cáncer sigan luchando por sus sueños</h2>
+      <p class="lead center light">Cada aporte, por pequeño que parezca, puede convertirse en una sonrisa, un momento de alegría o una oportunidad para hacer realidad uno de sus sueños. Tu generosidad nos permite seguir acompañando a los niños y sus familias, entregándoles momentos que les recuerden que no están solos.</p>
+      <div class="bank" id="ayudar">
+        <h3>¿Cómo puedes colaborar?</h3>
+        <dl>
+          <div><dt>Titular</dt><dd data-copy>Fundacion Tias del Desayuno Niños con Cancer</dd></div>
+          <div><dt>RUT</dt><dd data-copy>65.172.505-4</dd></div>
+          <div><dt>Banco</dt><dd>Banco Estado – Chequera Electrónica</dd></div>
+          <div><dt>N° de cuenta</dt><dd data-copy>028670237011</dd></div>
+          <div><dt>Correo</dt><dd data-copy>fundaciontiasdeldesayuno@gmail.com</dd></div>
+          <div><dt>Correo</dt><dd data-copy>Cynthiaossandon@gmail.com</dd></div>
+        </dl>
+        <p class="hint">Toca un dato para copiarlo.</p>
+      </div>
+      <p class="thanks">Gracias a todas las personas, familias y colaboradores que han confiado en nuestra labor y nos han acompañado en este camino. Cada aporte, cada muestra de cariño y cada gesto de apoyo nos impulsan a seguir creciendo y llegando a más niños.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__in">
+    <span>© 2026 Fundación Tías del Desayuno · 100% voluntariado, sin fines de lucro</span>
+    <a href="#inicio">Volver arriba ↑</a>
+  </div>
+</footer>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal__box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal__close" aria-label="Cerrar">×</button>
+    <div class="gallery" id="modal-media"></div>
+    <h3 id="modal-title"></h3>
+    <div id="modal-body"></div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
